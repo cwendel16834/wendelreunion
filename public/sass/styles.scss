@@ -1,0 +1,99 @@
+$tan: 	#B3B597;
+$dark: 	#678C8B;
+$med: 	#8FA89B;
+$med2: 	#A2BAB0;
+$light:	#D0EDDE;
+
+@import "compass";
+@import "compass/reset";
+
+body {
+	width: 100%;
+	background: $dark;
+
+	#content {
+		width: 950px;
+		margin: 10px auto;
+		background: beige;
+		@include border-radius(5px);
+		@include box-shadow();
+		padding: 10px;
+
+		header {
+			border: 1px solid $tan;
+			@include border-radius(5px);
+			width: auto;
+			clear: both;
+			padding: 10px;
+			overflow: hidden;
+			margin-bottom: 10px;
+			text-align: center;
+			
+			h1 {
+				width: auto;
+			}
+		}
+
+		#left-column {
+			float: left;	
+			clear: left;
+			width: 30%;
+			
+			div {
+				height: 330px;
+			}
+		}
+
+		#right-column {
+			float: right;
+			clear: right;
+			margin-left: 0;
+			width: 60%;			
+			overflow: hidden;
+			
+			.photo-border {
+				padding: 4px;
+				background: white;
+				@include box-shadow();
+				margin-bottom: 10px;
+				float: left;
+			}
+			
+			img {
+				width: 560px;
+				display: block;
+				margin: 0;
+			}
+		}
+
+		footer {
+			clear: both;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 0px;
+		}
+	}
+}
+
+.column {
+	margin-bottom: 10px;
+	padding: 5px;
+	/*border: 1px solid $tan;
+	@include border-radius(4px);*/
+}
+
+h1 {
+	font-size: 168%;
+	font-weight: bold;
+	margin: 10px 0px 10px 0px;
+}
+
+h2 {
+	font-size: 130%;
+	font-weight: bold;
+	margin: 8px 0px 8px 0px;
+}
+
+p {
+	margin: 10px 0;
+}
