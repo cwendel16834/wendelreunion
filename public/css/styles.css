@@ -93,7 +93,7 @@ body #content header {
   border-radius: 5px;
   width: auto;
   clear: both;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
   margin-bottom: 10px;
   text-align: center;
@@ -101,25 +101,26 @@ body #content header {
 /* line 32, ../sass/styles.scss */
 body #content header h1 {
   width: auto;
+  margin: 0;
 }
-/* line 37, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 body #content #left-column {
   float: left;
   clear: left;
   width: 35%;
 }
-/* line 42, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 body #content #left-column div {
   height: 330px;
 }
-/* line 48, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 body #content #left-column #directions-list li {
   margin: 5px;
   list-style: square;
   margin-left: 20px;
   line-height: 1.3em;
 }
-/* line 57, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 body #content #right-column {
   float: right;
   clear: right;
@@ -127,7 +128,7 @@ body #content #right-column {
   width: 60%;
   overflow: hidden;
 }
-/* line 64, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 body #content #right-column .photo-border {
   padding: 4px;
   background: white;
@@ -137,13 +138,13 @@ body #content #right-column .photo-border {
   margin-bottom: 10px;
   float: left;
 }
-/* line 72, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 body #content #right-column img {
   width: 560px;
   display: block;
   margin: 0;
 }
-/* line 79, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 body #content footer {
   clear: both;
   width: 100%;
@@ -151,7 +152,7 @@ body #content footer {
   margin-bottom: 0px;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 .column {
   margin-bottom: 10px;
   padding: 5px;
@@ -159,21 +160,21 @@ body #content footer {
   @include border-radius(4px);*/
 }
 
-/* line 95, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 h1 {
   font-size: 168%;
   font-weight: bold;
   margin: 10px 0px 10px 0px;
 }
 
-/* line 101, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 h2 {
   font-size: 130%;
   font-weight: bold;
   margin: 8px 0px 8px 0px;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 p {
   margin: 10px 0;
 }
