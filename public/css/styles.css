@@ -1,4 +1,4 @@
-/* line 17, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -106,13 +106,20 @@ body #content header h1 {
 body #content #left-column {
   float: left;
   clear: left;
-  width: 30%;
+  width: 35%;
 }
 /* line 42, ../sass/styles.scss */
 body #content #left-column div {
   height: 330px;
 }
-/* line 47, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
+body #content #left-column #directions-list li {
+  margin: 5px;
+  list-style: square;
+  margin-left: 20px;
+  line-height: 1.3em;
+}
+/* line 57, ../sass/styles.scss */
 body #content #right-column {
   float: right;
   clear: right;
@@ -120,7 +127,7 @@ body #content #right-column {
   width: 60%;
   overflow: hidden;
 }
-/* line 54, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 body #content #right-column .photo-border {
   padding: 4px;
   background: white;
@@ -130,13 +137,13 @@ body #content #right-column .photo-border {
   margin-bottom: 10px;
   float: left;
 }
-/* line 62, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 body #content #right-column img {
   width: 560px;
   display: block;
   margin: 0;
 }
-/* line 69, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 body #content footer {
   clear: both;
   width: 100%;
@@ -144,7 +151,7 @@ body #content footer {
   margin-bottom: 0px;
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .column {
   margin-bottom: 10px;
   padding: 5px;
@@ -152,21 +159,21 @@ body #content footer {
   @include border-radius(4px);*/
 }
 
-/* line 85, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 h1 {
   font-size: 168%;
   font-weight: bold;
   margin: 10px 0px 10px 0px;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 h2 {
   font-size: 130%;
   font-weight: bold;
   margin: 8px 0px 8px 0px;
 }
 
-/* line 97, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 p {
   margin: 10px 0;
 }

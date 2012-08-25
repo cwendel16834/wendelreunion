@@ -28,29 +28,39 @@ body {
 			overflow: hidden;
 			margin-bottom: 10px;
 			text-align: center;
-			
+
 			h1 {
 				width: auto;
 			}
 		}
 
 		#left-column {
-			float: left;	
+			float: left;
 			clear: left;
-			width: 30%;
-			
+			width: 35%;
+
 			div {
 				height: 330px;
 			}
+
+            #directions-list {
+
+              li {
+                margin: 5px;
+                list-style: square;
+                margin-left: 20px;
+                line-height: 1.3em;
+              }
+            }
 		}
 
 		#right-column {
 			float: right;
 			clear: right;
 			margin-left: 0;
-			width: 60%;			
+			width: 60%;
 			overflow: hidden;
-			
+
 			.photo-border {
 				padding: 4px;
 				background: white;
@@ -58,7 +68,7 @@ body {
 				margin-bottom: 10px;
 				float: left;
 			}
-			
+
 			img {
 				width: 560px;
 				display: block;
@@ -97,3 +107,4 @@ h2 {
 p {
 	margin: 10px 0;
 }
+
